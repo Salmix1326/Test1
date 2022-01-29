@@ -1,0 +1,102 @@
+/* ========== Обнуление ========== */
+
+*,
+*::before,
+*::after {
+   margin: 0;
+   border: 0;
+}
+
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+img {
+   vertical-align: top;
+}
+
+/* ========== Стили ========== */
+
+h1 {
+   color: blue;
+}
+
+h2 {
+   color: deeppink;
+}
+
+h3 {
+   color: khaki;
+}
+
+h4 { 
+   color: seagreen;
+}
+
+ul {
+   color: greenyellow;
+}
+
+li {
+   color: lightskyblue;
+}
+
+p {
+   color: indianred;
+}
+
+.nav1 {
+   color: lime;
+}
+
+.nav1.nav-number2 {
+   color: orange;
+}
+
+.nav1.nav-number3 {
+   color: mediumblue;
+}
+
+.nav1.nav-number4 {
+   color: mediumslateblue;
+}
+
+.nav1.nav-number5 {
+   color: mediumturquoise;
+}
+
+.continent p {
+   color: midnightblue;
+}
+
+[class*="character"] {
+   color: navy;
+}
+
+.character-title {
+   color: red;
+}
+
+.world-of-witcher li {
+   color: royalblue;
+}
+
+.about.world {
+   color: violet;
+}
